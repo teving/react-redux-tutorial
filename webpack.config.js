@@ -18,7 +18,7 @@ module.exports = {
 				exclude: /node_modules/,
 				query: {
 					presets: [
-						'es-2015',
+						'es2015',
 						'react',
 						'stage-2'
 					]
