@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/teving/react-redux-tutorial/issues"
   },
-  "homepage": "https://github.com/teving/react-redux-tutorial#readme"
+  "homepage": "https://github.com/teving/react-redux-tutorial#readme",
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
 }
