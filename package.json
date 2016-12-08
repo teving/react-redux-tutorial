@@ -1,0 +1,19 @@
+{
+  "name": "react-redux-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial from Zsolt Nagy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teving/react-redux-tutorial.git"
+  },
+  "author": "kgurton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teving/react-redux-tutorial/issues"
+  },
+  "homepage": "https://github.com/teving/react-redux-tutorial#readme"
+}
