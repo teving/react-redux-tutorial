@@ -9,6 +9,7 @@ class ClearButton extends React.Component {
 	}
 
 	handleClearMessages(){
+		this.props.clearMessages();
 		this.setState({
 			isClearDisabled: true
 		});
