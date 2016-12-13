@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-var SimpleComponent = React.createClass({
-	render: function(){
+class SimpleComponent extends React.Component {
+	render(){
 		return (
 			<div>{this.props.message}</div>
-		)
+		);
 	}
-});
+}
 
 ReactDOM.render(
-	<SimpleComponent message="React Demo"/>,
+	<SimpleComponent message="Hello, World"/>,
 	document.querySelector('.js-app')
 );
