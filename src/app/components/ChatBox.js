@@ -30,11 +30,14 @@ class ChatBox extends React.Component {
 	}
 
 	render(){
+		let isDisabled = this.state.messages.length === 0;
 		return (
 			<div>
 				<MessageList messages={this.state.messages}/>
 				<PostMessageForm appendChatMessage={this.appendChatMessage}/>
-				<ClearButton clearMessages={this.clearMessages}/>
+				<ClearButton 
+					clearMessages={this.clearMessages}
+					isDisabled={isDisabled}/>
 			</div>
 		);
 	}
